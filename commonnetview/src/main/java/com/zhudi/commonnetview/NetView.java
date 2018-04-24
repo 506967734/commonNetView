@@ -178,8 +178,8 @@ public class NetView extends RelativeLayout {
      * @param emptyTextTitle     Title of the empty view to show
      * @param emptyTextContent   Content of the empty view to show
      */
-    public void showEmpty(int emptyImageResource, String emptyTextTitle, String emptyTextContent) {
-        switchState(EMPTY, emptyImageResource, emptyTextTitle, emptyTextContent, null, Collections.<Integer>emptyList());
+    public void showEmpty(int emptyImageResource, String emptyTextTitle, String emptyTextContent, OnClickListener onClickListener) {
+        switchState(EMPTY, emptyImageResource, emptyTextTitle, emptyTextContent, onClickListener, Collections.<Integer>emptyList());
     }
 
     /**
@@ -198,7 +198,6 @@ public class NetView extends RelativeLayout {
         this.state = state;
         switch (state) {
             case CONTENT:
-                //Hide all state views to display content
                 hideLoadingView();
                 hideEmptyView();
                 hideErrorView();
