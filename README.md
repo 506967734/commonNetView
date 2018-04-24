@@ -65,9 +65,9 @@ git clone https://github.com/506967734/commonNetView.git
 
 ## Bugs and Feedback
 
-For bugs, questions and discussions please use the Github Issues.<br>
-OR .<br>
-Write Email to zhudi19911107@gmail.com<br>
+        For bugs, questions and discussions please use the Github Issues.<br>
+        OR .
+        Write Email to zhudi19911107@gmail.com
 
 ## LICENSE
 ```
