@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btn1"
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="loading" />å
+
+        <Button
+            android:id="@+id/btn2"
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="error" />
+
+        <Button
+            android:id="@+id/btn3"
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="empty" />
+
+        <Button
+            android:id="@+id/btn4"
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="content" />
+    </LinearLayout>
+
+    <com.zhudi.commonnetview.NetView
+        android:id="@+id/netView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:emptyContentTextColor="#ff3d78c8"
+        app:emptyImageHeight="200dip"
+        app:emptyImageWidth="200dip"
+        app:emptyTitleTextColor="#ff818181"
+        app:errorContentTextColor="#ff3d78c8"
+        app:errorTitleTextColor="#ff818181">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Hello World!" />
+    </com.zhudi.commonnetview.NetView>
+
+
+</LinearLayout>

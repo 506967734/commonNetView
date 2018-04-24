@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="netView">
+
+        <attr name="loadingLayout" format="reference"/>
+        <attr name="emptyLayout" format="reference"/>
+        <attr name="errorLayout" format="reference"/>
+
+        <attr name="loadingProgressBarWidth" format="dimension"/>
+        <attr name="loadingProgressBarHeight" format="dimension"/>
+
+        <attr name="emptyImageWidth" format="dimension"/>
+        <attr name="emptyImageHeight" format="dimension"/>
+        <attr name="emptyTitleTextSize" format="dimension"/>
+        <attr name="emptyContentTextSize" format="dimension"/>
+        <attr name="emptyTitleTextColor" format="color"/>
+        <attr name="emptyContentTextColor" format="color"/>
+        <attr name="emptyUseClickId" format="reference"/>
+        <attr name="emptyUseImageId" format="reference"/>
+        <attr name="emptyUseTitleId" format="reference"/>
+        <attr name="emptyUseMessageId" format="reference"/>
+
+        <attr name="errorImageWidth" format="dimension"/>
+        <attr name="errorImageHeight" format="dimension"/>
+        <attr name="errorTitleTextSize" format="dimension"/>
+        <attr name="errorContentTextSize" format="dimension"/>
+        <attr name="errorTitleTextColor" format="color"/>
+        <attr name="errorContentTextColor" format="color"/>
+        <attr name="errorUseClickId" format="reference"/>
+        <attr name="errorUseImageId" format="reference"/>
+        <attr name="errorUseTitleId" format="reference"/>
+        <attr name="errorUseMessageId" format="reference"/>
+    </declare-styleable>
+</resources>
