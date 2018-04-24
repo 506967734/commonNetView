@@ -37,20 +37,20 @@
     errorUseMessageId  //错误界面的content Id
 
     //默认布局可以设置以下属性
-     loadingProgressBarWidth  //加载控件的宽
-     loadingProgressBarHeight //加载控件的高
-     emptyImageWidth          //空界面的图片宽
-     emptyImageHeight         //空界面的图片高
-     emptyTitleTextSize       //空界面的title字体大小
-     emptyContentTextSize     //空界面的content字体大小
-     emptyTitleTextColor      //空界面的title字体颜色
-     emptyContentTextColor    //空界面的content字体颜色
-     errorImageWidth          //错误界面的图片宽
-     errorImageHeight         //错误界面的图片高
-     errorTitleTextSize       //错误界面的title字体大小
-     errorContentTextSize     //错误界面的content字体大小
-     errorTitleTextColor      //错误界面的title字体颜色
-     errorContentTextColor    //错误界面的content字体颜色
+    loadingProgressBarWidth  //加载控件的宽
+    loadingProgressBarHeight //加载控件的高
+    emptyImageWidth          //空界面的图片宽
+    emptyImageHeight         //空界面的图片高
+    emptyTitleTextSize       //空界面的title字体大小
+    emptyContentTextSize     //空界面的content字体大小
+    emptyTitleTextColor      //空界面的title字体颜色
+    emptyContentTextColor    //空界面的content字体颜色
+    errorImageWidth          //错误界面的图片宽
+    errorImageHeight         //错误界面的图片高
+    errorTitleTextSize       //错误界面的title字体大小
+    errorContentTextSize     //错误界面的content字体大小
+    errorTitleTextColor      //错误界面的title字体颜色
+    errorContentTextColor    //错误界面的content字体颜色
 ```
 
 ## Getting started
@@ -65,9 +65,9 @@ git clone https://github.com/506967734/commonNetView.git
 
 ## Bugs and Feedback
 
-For bugs, questions and discussions please use the Github Issues.
-OR .
-Write Email to zhudi19911107@gmail.com
+For bugs, questions and discussions please use the Github Issues.<br>
+OR .<br>
+Write Email to zhudi19911107@gmail.com<br>
 
 ## LICENSE
 ```
