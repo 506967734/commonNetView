@@ -2,7 +2,7 @@
 网络请求时候的加载View,以及加载错误和暂无数据View
 
 ## Smaple
-、、、
+```
     <com.zhudi.commonnetview.NetView
         android:id="@+id/netView"
         android:layout_width="match_parent"
@@ -51,17 +51,17 @@
      errorContentTextSize     //错误界面的content字体大小
      errorTitleTextColor      //错误界面的title字体颜色
      errorContentTextColor    //错误界面的content字体颜色
-、、、
+```
 
 ## Getting started
-、、、
+```
 compile 'com.zhudi.commonnetview:commonnetview:1.0.0'
-、、、
+```
 
 ## Build
-、、、
+```
 git clone https://github.com/506967734/commonNetView.git
-、、、
+```
 
 ## Bugs and Feedback
 
@@ -70,7 +70,7 @@ OR .
 Write Email to zhudi19911107@gmail.com
 
 ## LICENSE
-、、、
+```
  Licensed under the Apache License, Version 2.0 (the "License");
   you may not use this file except in compliance with the License.
   You may obtain a copy of the License at
@@ -81,4 +81,4 @@ Write Email to zhudi19911107@gmail.com
   WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
   See the License for the specific language governing permissions and
   limitations under the License.
-、、、
+```
