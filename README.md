@@ -24,6 +24,15 @@
 
     netView.showLoading();  //加载中
     netView.showContent();  //显示内容
+    //错误显示
+    netView.showError(0, "网络错误", "", new View.OnClickListener() {
+        @Override
+        public void onClick(View v) {
+             Toast.makeText(MainActivity.this,"点击了",Toast.LENGTH_LONG).show();
+        }
+    });
+    //空显示
+    netView.showEmpty(0,"暂无数据","",null);
 
     //自定义布局
     loadingLayout //自定义加载过程界面
