@@ -40,23 +40,37 @@
             android:layout_weight="1"
             android:text="content" />
     </LinearLayout>
+    <!--默认布局的设置-->
+    <!--<com.zhudi.commonnetview.NetView-->
+    <!--android:id="@+id/netView"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="match_parent"-->
+    <!--app:emptyContentTextColor="#ff3d78c8"-->
+    <!--app:emptyImageHeight="200dip"-->
+    <!--app:emptyImageWidth="200dip"-->
+    <!--app:emptyTitleTextColor="#ff818181"-->
+    <!--app:errorContentTextColor="#ff3d78c8"-->
+    <!--app:errorTitleTextColor="#ff818181">-->
 
+    <!--<TextView-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:text="Hello World!" />-->
+    <!--</com.zhudi.commonnetview.NetView>-->
+    <!--自定义布局的设置-->
     <com.zhudi.commonnetview.NetView
         android:id="@+id/netView"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        app:emptyContentTextColor="#ff3d78c8"
-        app:emptyImageHeight="200dip"
-        app:emptyImageWidth="200dip"
-        app:emptyTitleTextColor="#ff818181"
-        app:errorContentTextColor="#ff3d78c8"
-        app:errorTitleTextColor="#ff818181">
+        app:emptyLayout="@layout/empty"
+        app:emptyUseClickId="@+id/llClick"
+        app:emptyUseImageId="@+id/iv"
+        app:emptyUseTitleId="@+id/tv">
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Hello World!" />
     </com.zhudi.commonnetview.NetView>
-
 
 </LinearLayout>

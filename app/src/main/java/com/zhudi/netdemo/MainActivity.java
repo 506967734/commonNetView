@@ -41,7 +41,12 @@ public class MainActivity extends AppCompatActivity {
         findViewById(R.id.btn3).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                netView.showEmpty(0,"暂无数据","",null);
+                netView.showEmpty(R.mipmap.ic_launcher, "暂无数据", "", new View.OnClickListener() {
+                    @Override
+                    public void onClick(View v) {
+                        Toast.makeText(MainActivity.this,"我是空界面",Toast.LENGTH_LONG).show();
+                    }
+                });
             }
         });
         findViewById(R.id.btn4).setOnClickListener(new View.OnClickListener() {
