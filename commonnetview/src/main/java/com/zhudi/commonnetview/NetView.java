@@ -284,7 +284,8 @@ public class NetView extends RelativeLayout {
                     progressBar.requestLayout();
                 }
             }
-            layoutParams = new LayoutParams(ViewGroup.LayoutParams.MATCH_PARENT, ViewGroup.LayoutParams.MATCH_PARENT);
+            layoutParams = new LayoutParams(ViewGroup.LayoutParams.WRAP_CONTENT, ViewGroup.LayoutParams.WRAP_CONTENT);
+            layoutParams.addRule(RelativeLayout.CENTER_IN_PARENT);
             addView(loadingLayout, layoutParams);
         } else {
             loadingLayout.setVisibility(VISIBLE);
